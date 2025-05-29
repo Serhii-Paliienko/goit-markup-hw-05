@@ -443,12 +443,17 @@ button {
   margin-bottom: 16px;
 }
 
-.subscribe-wrapper {
+/* .subscribe-wrapper {
   display: flex;
+} */
+
+.footer-form {
+  display: flex;
+  gap: 24px;
 }
 
 .subscribe-email-input {
-  margin-right: 24px;
+  /* margin-right: 24px; */
   width: 264px;
   height: 40px;
   background-color: transparent;
