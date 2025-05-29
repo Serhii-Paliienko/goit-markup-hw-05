@@ -553,14 +553,14 @@ button {
   margin-bottom: 16px;
 }
 
-.callback-form {
+.callback-form-field-wrapper {
   margin-bottom: 8px;
 }
 
 .callback-form-field-label {
   display: block;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
@@ -609,6 +609,10 @@ button {
   outline: transparent;
   resize: none;
   padding: 8px 16px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #2e2f4266;
 }
 
 .callback-form-comment:focus {
