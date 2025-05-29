@@ -402,6 +402,10 @@ button {
   margin-bottom: 16px;
 }
 
+.social-media-footer {
+  margin-right: 80px;
+}
+
 .social-media-footer-text {
   font-weight: 500;
   line-height: 1.5;
@@ -429,6 +433,50 @@ button {
 .social-link-footer:focus {
   background-color: #31d0aa;
   cursor: pointer;
+}
+
+.subscribe {
+  display: block;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.subscribe-wrapper {
+  display: flex;
+}
+
+.subscribe-email-input {
+  margin-right: 24px;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  outline: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
+  color: #ffffff;
+}
+
+.subscribe-email-input::placeholder {
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.subscribe-button {
+  padding: 8px 0;
+  min-width: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 16px;
+}
+
+.subscribe-button-icon {
+  fill: #ffffff;
 }
 
 /* MODAL WINDOW STYLES */

@@ -678,11 +678,29 @@
             </li>
           </ul>
         </div>
+        <form>
+          <label class="subscribe" for="subscribe-email">Subscribe</label>
+          <div class="subscribe-wrapper">
+            <input
+              class="subscribe-email-input"
+              id="subscribe-email"
+              name="subscribe_amail"
+              type="email"
+              placeholder="E-mail"
+            />
+            <button class="button subscribe-button">
+              Subscribe
+              <svg class="subscribe-button-icon" width="24" height="24">
+                <use href="./images/icons.svg#plane"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
 
     <!-- MODAL -->
-    <div class="backdrop">
+    <div class="backdrop visually-hidden">
       <div class="modal">
         <button class="close-modal-btn" type="button">
           <svg class="close-modal-btn-icon" width="8" height="8">
