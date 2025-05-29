@@ -668,8 +668,8 @@ button {
   + .callback-form-checkbox-label
   .callback-form-custom-checkbox {
   background-color: #404bbf;
-  fill: #f4f4fd;
   border: none;
+  fill: #f4f4fd;
 }
 
 .callback-form-checkbox:focus
