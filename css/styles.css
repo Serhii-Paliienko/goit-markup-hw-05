@@ -669,14 +669,14 @@ button {
   fill: #f4f4fd;
 }
 
-.callback-form-checkbox:focus
+/* .callback-form-checkbox:focus
   + .callback-form-checkbox-label
   .callback-form-custom-checkbox,
 .callback-form-checkbox:hover
   + .callback-form-checkbox-label
   .callback-form-custom-checkbox {
   border: 1px solid #404bbf;
-}
+} */
 
 .callback-form-submit-button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
